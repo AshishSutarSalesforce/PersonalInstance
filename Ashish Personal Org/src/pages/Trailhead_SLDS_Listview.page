@@ -1,0 +1,224 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">    
+
+<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    
+
+<head>
+  <title>Salesforce Lightning Design System Trailhead Module</title>
+  <apex:stylesheet value="{!URLFOR($Resource.SLDS103, 'assets/styles/salesforce-lightning-design-system-vf.css')}" />
+</head>    
+
+<body>    
+
+  <!-- REQUIRED SLDS WRAPPER -->
+  <div class="slds">    
+
+    <!-- MASTHEAD -->
+    <p class="slds-text-heading--label slds-m-bottom--small">Salesforce Lightning Design System Trailhead Module</p>
+    <!-- / MASTHEAD -->    
+    <!-- PAGE HEADER -->
+    <div class="slds-page-header" role="banner">
+    
+      <!-- LAYOUT GRID -->
+      <div class="slds-grid">
+    
+        <!-- GRID COL -->
+        <div class="slds-col">
+    
+          <!-- HEADING AREA -->
+          <p class="slds-text-heading--label">Accounts</p>
+          <h1 class="slds-text-heading--medium">My Accounts</h1>
+          <!-- /HEADING AREA -->
+    
+        </div>
+    
+        <!-- GRID COL -->
+        <div class="slds-col slds-no-flex slds-align-middle">
+    
+          <div class="slds-button-group" role="group">
+            <button class="slds-button slds-button--neutral">
+              New Account
+            </button>
+            <button class="slds-button slds-button--neutral">
+              More
+            </button>
+          </div>
+    
+        </div>
+        <!-- / GRID COL -->
+    
+      </div>
+      <!-- / LAYOUT GRID -->
+    
+      <p class="slds-text-body--small slds-m-top--x-small">COUNT items</p>
+    
+    </div>
+    <!-- / PAGE HEADER -->
+    
+
+<!-- PRIMARY CONTENT WRAPPER -->
+<div class="myapp">
+
+  <ul class="slds-list--dotted slds-m-top--large">
+    <li>Account 1</li>
+    <li>Account 2</li>
+    <li>Account 3</li>
+    <li>Account 4</li>
+    <li>Account 5</li>
+    <li>Account 6</li>
+    <li>Account 7</li>
+    <li>Account 8</li>
+    <li>Account 9</li>
+    <li>Account 10</li>
+  </ul>
+  
+  Preview
+Code
+
+  <ul class="slds-list--vertical slds-has-cards--space has-selections">
+    <li class="slds-list__item">
+      <div class="slds-tile slds-tile--board">
+        <p class="slds-tile__title slds-truncate"><a href="#">Cloudhub + Anypoint Connectors</a></p>
+        <div class="slds-tile__detail">
+          <p class="slds-text-heading--medium">$500,000</p>
+          <p class="slds-truncate"><a href="#">Company One</a></p>
+          <p class="slds-truncate">Closing 9/30/2015</p>
+        </div>
+      </div>
+    </li>
+   </ul>
+
+
+<div class="slds-card">
+    <div class="slds-card__header slds-grid">
+      <div class="slds-media slds-media--center slds-has-flexi-truncate">
+        <div class="slds-media__figure">
+          <svg aria-hidden="true" class="slds-icon slds-icon-standard-contact slds-icon--small">
+            <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#contact"></use>
+          </svg>
+        </div>
+        <div class="slds-media__body">
+          <h2 class="slds-text-heading--small slds-truncate">Card Header (2)</h2>
+        </div>
+      </div>
+      <div class="slds-no-flex">
+        <button class="slds-button slds-button--icon-border-filled">
+          <svg aria-hidden="true" class="slds-button__icon">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+          </svg>
+          <span class="slds-assistive-text">Useful alt text</span>
+        </button>
+      </div>
+    </div>
+    <div class="slds-card__body">
+      <ul>
+        <li class="slds-tile slds-hint-parent">
+          <div class="slds-grid slds-grid--align-spread slds-has-flexi-truncate">
+            <p class="slds-tile__title slds-truncate"><a href="#">Adam Choi</a></p>
+            <button class="slds-button slds-button--icon-border-filled slds-button--icon-x-small slds-shrink-none">
+              <svg aria-hidden="true" class="slds-button__icon slds-button__icon--hint slds-button__icon--small">
+                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+              </svg>
+              <span class="slds-assistive-text">Show More</span>
+            </button>
+          </div>
+          <div class="slds-tile__detail">
+            <dl class="slds-dl--horizontal slds-text-body--small">
+              <dt class="slds-dl--horizontal__label">
+                <p class="slds-truncate">Title:</p>
+              </dt>
+              <dd class="slds-dl--horizontal__detail slds-tile__meta">
+                <p class="slds-truncate">VP, Facilities</p>
+              </dd>
+              <dt class="slds-dl--horizontal__label">
+                <p class="slds-truncate">Email:</p>
+              </dt>
+              <dd class="slds-dl--horizontal__detail slds-tile__meta">
+                <p class="slds-truncate">achoi@burlingtion.com</p>
+              </dd>
+            </dl>
+          </div>
+        </li>
+        <li class="slds-tile slds-hint-parent">
+          <div class="slds-grid slds-grid--align-spread slds-has-flexi-truncate">
+            <p class="slds-tile__title slds-truncate"><a href="#">Adam Choi</a></p>
+            <button class="slds-button slds-button--icon-border-filled slds-button--icon-x-small slds-shrink-none">
+              <svg aria-hidden="true" class="slds-button__icon slds-button__icon--hint slds-button__icon--small">
+                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+              </svg>
+              <span class="slds-assistive-text">Show More</span>
+            </button>
+          </div>
+          <div class="slds-tile__detail">
+            <dl class="slds-dl--horizontal slds-text-body--small">
+              <dt class="slds-dl--horizontal__label">
+                <p class="slds-truncate">Title:</p>
+              </dt>
+              <dd class="slds-dl--horizontal__detail slds-tile__meta">
+                <p class="slds-truncate">VP, Facilities</p>
+              </dd>
+              <dt class="slds-dl--horizontal__label">
+                <p class="slds-truncate">Email:</p>
+              </dt>
+              <dd class="slds-dl--horizontal__detail slds-tile__meta">
+                <p class="slds-truncate">achoi@burlingtion.com</p>
+              </dd>
+            </dl>
+          </div>
+        </li>
+        <li class="slds-tile slds-hint-parent">
+          <div class="slds-grid slds-grid--align-spread slds-has-flexi-truncate">
+            <p class="slds-tile__title slds-truncate"><a href="#">Adam Choi</a></p>
+            <button class="slds-button slds-button--icon-border-filled slds-button--icon-x-small slds-shrink-none">
+              <svg aria-hidden="true" class="slds-button__icon slds-button__icon--hint slds-button__icon--small">
+                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+              </svg>
+              <span class="slds-assistive-text">Show More</span>
+            </button>
+          </div>
+          <div class="slds-tile__detail">
+            <dl class="slds-dl--horizontal slds-text-body--small">
+              <dt class="slds-dl--horizontal__label">
+                <p class="slds-truncate">Title:</p>
+              </dt>
+              <dd class="slds-dl--horizontal__detail slds-tile__meta">
+                <p class="slds-truncate">VP, Facilities</p>
+              </dd>
+              <dt class="slds-dl--horizontal__label">
+                <p class="slds-truncate">Email:</p>
+              </dt>
+              <dd class="slds-dl--horizontal__detail slds-tile__meta">
+                <p class="slds-truncate">achoi@burlingtion.com</p>
+              </dd>
+            </dl>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="slds-card__footer"><a href="#">View All <span class="slds-assistive-text">entity type</span></a></div>
+  </div>
+</div>
+<!-- / PRIMARY CONTENT WRAPPER -->
+   
+
+<!-- FOOTER -->
+<footer role="contentinfo" class="slds-p-around--large">
+  <!-- LAYOUT GRID -->
+  <div class="slds-grid slds-grid--align-spread">
+    <p class="slds-col">Salesforce Lightning Design System Example</p>
+    <p class="slds-col">&copy; Ashish Sutar</p>
+  </div>
+  <!-- / LAYOUT GRID -->
+</footer>
+<!-- / FOOTER -->
+   
+
+  </div>
+  <!-- / REQUIRED SLDS WRAPPER -->    
+
+</body>    
+
+<!-- JAVASCRIPT -->
+<!-- / JAVASCRIPT -->    
+
+</html>
+</apex:page>
